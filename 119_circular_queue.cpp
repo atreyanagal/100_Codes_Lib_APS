@@ -53,6 +53,8 @@ void display()
             cout << q[i] << " ";
             i = (i + 1) % MAX_SIZE;
         }
+
+        cout<<q[i];
 }
 
 void _front()
