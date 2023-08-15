@@ -42,7 +42,10 @@ void dequeue()
 void display()
 {
 	if((front == -1) && (rear == -1))
-	cout<<"Queue is empty.";
+    {
+	    cout<<"Queue is empty.";
+        return;
+    }
 
 	cout<<endl;
 	cout<<"Queue elements"<<endl;
